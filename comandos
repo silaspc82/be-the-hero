@@ -1,0 +1,27 @@
+
+backend
+	npm install express
+	node index.js
+	Atualização automática de código no servidor
+		npm install nodemon -D
+	Query builder:
+		npm install knex
+		npm install sqlite3
+		npx knex init
+		Inicializar migrate
+			npx knex migrate:make create_ongs
+		Realizar a criação
+			npx knex migrate:latest
+		Criar as tabelas de incidentes
+			npx knex migrate:make create_incidents
+		Realizar a criação
+                        npx knex migrate:latest
+		Voltar a última alteração de schema
+			npx knex migrate:rollback
+		Listar os status das migrations
+			npx knex migrate:status
+	Cors
+		npm install cors
+frontend
+	npx create-react-app frontend
+	npm start
