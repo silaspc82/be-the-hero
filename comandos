@@ -25,3 +25,19 @@ backend
 frontend
 	npx create-react-app frontend
 	npm start
+		Atualização automática de código no servidor
+		npm install nodemon -D
+
+		Icones
+		npm install react-icons
+
+		Rotas
+		npm install react-router-dom
+
+		Cliente http
+		npm install axios
+
+
+Erros:
+	[nodemon] Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch
+		# echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl  -p
