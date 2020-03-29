@@ -36,7 +36,36 @@ frontend
 
 		Cliente http
 		npm install axios
+Mobile
+	Instalação do expo (-g deixa acessível a todos os projetos do sistema)
+		(Caso tenha erros ao executar o programa, pesquise no google por: expo common issues rocketseat. Entre no link da rocketseat)
+		sudo npm install -g expo-cli
+	Criação do projeto (selecione o template blank)
+		expo init mobile
+	Iniciar o projeto
+		yarn start
+	Baixar o expo no (play store ou appStore)
+		Caso não tenha dispositivo físico IOs ou Android:
+			Pesquisar por (emulador ios android react native rocketseat. Entre no link da rocketseat 'video')
+		Caso não tenha dispositivo ou emulador, pode utilizar o snack.expo.io (última opção)
+			snack.expo.io
+		Documentação do expo: docs.expo.io
+			Procurar por routing
+				Clicar no link React Navigation.
+					Entrar no link de documentação.
+						Executar no terminal a instalação do componente de roteamento:
+							npm install @react-navigation/native
+							expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+							npm install @react-navigation/stack
+		Instalando constantes
+			expo install expo-constants
+		Plugin para envio de email
+			expo install expo-mail-composer
 
+		Cliente http
+			npm install axios
+		Internacionalização de moeda
+			npm install intl
 
 Erros:
 	[nodemon] Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch
